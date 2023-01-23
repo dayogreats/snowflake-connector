@@ -8,9 +8,9 @@ import seaborn as sns  # for better data visualization
 
 # Gets the version
 ctx = snowflake.connector.connect(
-    user='dayogreats',
-    password='P@ssword2a',
-    account='ggdybmr-xq60696'  # ggdybmr-xq60696
+    user='<username>',
+    password='<password>',
+    account='<account>'  # 
 )
 cs = ctx.cursor()
 try:
